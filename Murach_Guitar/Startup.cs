@@ -58,6 +58,7 @@ namespace Murach_Guitar
                 //    name: "default",
                 //    pattern: "{controller=Home}/{action=Index}/{id?}"
                 //);
+                //endpoints.MapDefaultControllerRoute();
                 endpoints.MapAreaControllerRoute(
                     name: "admin",
                     areaName: "Admin",

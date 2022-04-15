@@ -46,6 +46,8 @@ namespace Murach_Guitar
 
             app.UseRouting();
 
+            //authentication and authorization
+
             app.UseEndpoints(endpoints =>
             {
                 //endpoints.MapGet("/", async context =>

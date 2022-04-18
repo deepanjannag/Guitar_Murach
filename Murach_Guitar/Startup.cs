@@ -47,6 +47,7 @@ namespace Murach_Guitar
             app.UseRouting();
 
             //authentication and authorization
+            //goes here!
 
             app.UseEndpoints(endpoints =>
             {

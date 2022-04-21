@@ -4,6 +4,9 @@ namespace Murach_Guitar.Models
 {
     public class ShopContext : DbContext  //Use Nuget to install Microsoft.EntityFrameworkCore.SqlServer before this part
     {
+        //Add-Migration Initial
+        //Update-Database
+        
         public ShopContext(DbContextOptions<ShopContext> options) : base(options)
         {
             ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;

@@ -43,7 +43,6 @@ namespace Murach_Guitar
             
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
 
             //authentication and authorization
